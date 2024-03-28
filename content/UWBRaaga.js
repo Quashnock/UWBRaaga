@@ -5,7 +5,7 @@ function question1Click(){
     }
     else{
         let newElement = document.createElement('div');
-        newElement.setAttribute('class', "py-5 px-2 bg-[#fefae0] border-x-2 border-b-2 rounded-b-2xl border-black self-center");
+        newElement.setAttribute('class', "py-5 px-4 bg-[#fefae0] border-x-2 border-b-2 rounded-b-2xl border-black self-center");
         let newTextElement = document.createElement('p');
         newTextElement.setAttribute('class', "self-center")
         newTextElement.textContent = "Nope! There are tons of positions in marketing and event plannning that do not require you know how to play an instrument!";
@@ -24,7 +24,7 @@ function question2Click(){
     }
     else{
         let newElement = document.createElement('div');
-        newElement.setAttribute('class', "py-5 px-2 bg-[#fefae0] border-x-2 border-b-2 rounded-b-2xl border-black self-center");
+        newElement.setAttribute('class', "py-5 px-4 bg-[#fefae0] border-x-2 border-b-2 rounded-b-2xl border-black self-center");
         let newTextElement = document.createElement('p');
         newTextElement.textContent = "2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
         newElement.appendChild(newTextElement);
@@ -42,7 +42,7 @@ function question3Click(){
     }
     else{
         let newElement = document.createElement('div');
-        newElement.setAttribute('class', "py-5 px-2 bg-[#fefae0] border-x-2 border-b-2 rounded-b-2xl border-black self-center");
+        newElement.setAttribute('class', "py-5 px-4 bg-[#fefae0] border-x-2 border-b-2 rounded-b-2xl border-black self-center");
         let newTextElement = document.createElement('p');
         newTextElement.textContent = "3: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
         newElement.appendChild(newTextElement);
@@ -60,7 +60,7 @@ function question4Click(){
     }
     else{
         let newElement = document.createElement('div');
-        newElement.setAttribute('class', "py-5 px-2 bg-[#fefae0] border-x-2 border-b-2 rounded-b-2xl border-black self-center");
+        newElement.setAttribute('class', "py-5 px-4 bg-[#fefae0] border-x-2 border-b-2 rounded-b-2xl border-black self-center");
         let newTextElement = document.createElement('p');
         newTextElement.textContent = "4: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
         newElement.appendChild(newTextElement);
