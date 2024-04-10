@@ -1020,6 +1020,10 @@ video {
   .max-md\:text-\[2rem\] {
     font-size: 2rem;
   }
+
+  .max-md\:text-\[0\.8rem\] {
+    font-size: 0.8rem;
+  }
 }
 
 @media not all and (min-width: 640px) {
