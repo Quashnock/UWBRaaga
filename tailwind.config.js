@@ -8,7 +8,8 @@ module.exports = {
       colors: {
         vuejs: "#00401a",
         forestGreen: "#006E33",
-        darkSpringGreen: "#406F52"
+        darkSpringGreen: "#406F52",
+        indianRed: "#D36060"
       },
       height: {
         128: "35rem"
@@ -16,7 +17,8 @@ module.exports = {
       fontFamily: {
         lora: "'Lora' , serif",
         inter: "'Inter', serif",
-        merriweather: "'Merriweather', serif"
+        merriweather: "'Merriweather', serif",
+        dosis: "'Dosis', sans-serif"
       }
     }
   },
