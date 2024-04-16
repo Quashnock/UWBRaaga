@@ -12,84 +12,102 @@
 <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
 </head>
 <body class = "box-border m-0">
-        <div class = "w-full h-10% flex flex-row-reverse fixed font-white fill-current items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class = "w-[5%] mr-[2.5%] mt-3"color="white" viewBox="0 0 50 50">
-                <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
-                </svg>
-        </div>
-        <div class = "pb-5 w-full bg-cover bg-center bg-[url('Assets/SampleBackground_New.png')] h-[100vh] bg-fixed">
-                <div class = "h-[100%] w-[100%] flex flex-col justify-center self-center w-full">
-                    <div class = "self-center px-3 rounded-xl flex flex-col justify-center self-center items-center">
-                        <p class =  "font-semibold font-lora text-white text-[8rem] max-md:text-[7rem] text-center italic drop-shadow shadow-black">Raaga</p>
-                        <p class = "text-white mb-[7rem] font-dosis font-bold tracking-wide text-[2.2rem] drop-shadow shadow-black">Music with an Indian consideration</p>
-                        <a href = "https://docs.google.com/forms/d/e/1FAIpQLSe9LhXkpwcSmwHcrEogIqb_Wm-h4dESXyLw3lgCKWuAfb3SVA/viewform">
-                            <button class = "bg-[#D36060] p-4 px-9 text-white rounded-3xl shadow-md hover:bg-[#EFEDCA] mb-[4rem] font-merriweather text-lg tracking-wide border-[3px] border-black italic">Join Today</button>
-                        </a>
+        <div class = "w-full h-[10vh] flex flex-row justify-center font-white fill-current items-center fixed z-10 bg-[#EFEDCA] border-b-[3px] border-black">
+            <div class = "w-4/5 max-sm:w-[95%] h-full flex flex-row items-center justify-between">
+                <div class = "h-full self-center flex flex-row items-center">
+                    <img src = "Assets/Club_Logo.png" class = "h-[90%] self-center">
+                    <p class = "font-lora text-[2.5rem] font-bold italic text-black self-center ml-2">Raaga</p>
+                </div>
+                <div class = "h-full self-center flex flex-row items-center justify-evenly max-sm:hidden ">
+                    <a class = "text-[1.5rem] font-dosis font-bold text-black self-center hover:underline" href = "https://discord.gg/adDNWpHc" target = "_blank">Discord</a>
+                    <a class = "text-[1.5rem] font-dosis font-bold text-black self-center ml-8 hover:underline" href="https://www.instagram.com/raagauwb/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target = "_blank">Instagram</a>
+                    <div class = "h-full collapse max-sm:visible">
+                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" class = "h-[60%]"><path d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z"/></svg>
                     </div>
                 </div>
-        </div> 
-        <div class = "py-28 w-full bg-darkSpringGreen border-t-[10px] border-black flex flex-row justify-center items-center">
-            <div class = "p-6 w-4/5 max-md:w-4/5 bg-[#EFEDCA] flex flex-col justify-center border-[3px] border-black rounded-2xl hover:transition-transform">
-                <h5 class = "font-Dosis text-[2.5rem] pt-5 rounded-3xl font-bold text-black">About Us</h5>
-                <p class = " max-md:text-[0.85rem] max-lg:text-[0.9rem] font-[350] py-5 text-[1.2rem] text-black tracking-wide leading-loose self-center">Raaga UWB Club is a vibrant world music club dedicated to celebrating cultural diversity through music. As a relatively new club, we are fueled by the passion and enthusiasm of our diverse leaders and members. Our club offers a unique platform for individuals from various backgrounds to come together, share their love for music, and showcase their talents. We specialize in singing a wide range of world music genres, creating a harmonious blend of melodies and rhythms from different cultures. In addition to our regular singing sessions, we also host engaging events that promote cultural awareness and unity within our community. At Raaga UWB Club, we believe that music transcends boundaries and fosters connections, making our club a welcoming space for everyone to explore and appreciate the rich tapestry of global musical traditions. Join us as we embark on a musical journey that celebrates diversity and harmony!</p>
             </div>
+            
         </div>
-        <div class = " bg-darkSpringGreen flex flex-row justify-center w-full pb-28">
-            <div class = " bg-darkSpringGreen flex flex-row w-[90%] self-center">
-                <div class = "w-[45%] h-full flex justify-center max-md:w-0">
-                    <p class = "font-dosis font-bold text-[1.8rem] text-white bg-indianRed p-4 mt-5 rounded-3xl border-[3px] border-black">Frequently Asked Questions</p>
-                </div>
-                <div class = "w-[55%] h-full flex flex-col justify-between font-inter max-md:w-full">
-                    <div onClick = "question1Click()" class = "w-4/5 bg-[#EFEDCA] self-center mt-5 flex flex-row border-[3px] border-black">
-                        <div id = "question1Icon">
-                            <svg class = "size-20 p-4 z-0" version="1.1" id="upArrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve" transform="rotate(0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394 l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393 C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path> </g></svg>
+        <div class = "absolute">
+            <div class = "w-full h-[10vh]">
+
+            </div>
+            <div class = "py-[10vh] max-sm:py-[15vh] w-full bg-cover bg-center bg-[url('Assets/SampleBackground_New.png')] flex flex-row justify-center border-b-[3px] border-black">
+                    <div class = "h-[100%] w-4/5 max-sm:w-11/12 flex flex-col justify-center">
+                        <div class = "self-center px-3 rounded-xl">
+                            <p class =  "font-semibold font-lora text-white text-[6rem] max-sm:text-[4rem] italic drop-shadow shadow-black w-3/4 max-sm:w-full leading-tight">Music with an Indian Focus</p>
+                            <p class = "text-white mb-[7rem] font-dosis font-bold tracking-wide text-[2.2rem] max-sm:text-[1rem] drop-shadow shadow-black">Uniting Huskys through Harmony</p>
+                            <a class = "bg-[#D36060] p-4 px-9 text-white rounded-3xl shadow-md hover:bg-[#EFEDCA] font-merriweather text-lg tracking-wide border-[3px] border-black italic" href = "https://docs.google.com/forms/d/e/1FAIpQLSe9LhXkpwcSmwHcrEogIqb_Wm-h4dESXyLw3lgCKWuAfb3SVA/viewform">Join Today
+                            </a>
                         </div>
-                        <p class = "self-center font-bold pl-4 font-dosis text-lg">Do I need to know how to play an instrument to join?</p>
                     </div>
-                    <div id = "question1Doc" class = "self-center w-4/5">
+            </div> 
+            <div class = "py-28 w-full bg-darkSpringGreen flex flex-row justify-center items-center">
+                <div class = "p-6 w-4/5 max-sm:w-11/12 bg-[#EFEDCA] flex flex-col justify-center border-[3px] border-black rounded-2xl hover:transition-transform">
+                    <h5 class = "font-Dosis text-[2.5rem] pt-5 rounded-3xl font-bold text-black">About Us</h5>
+                    <p class = " max-md:text-[0.85rem] max-lg:text-[0.9rem] font-[350] py-5 text-[1.2rem] text-black tracking-wide leading-loose self-center">Raaga UWB Club is a vibrant world music club dedicated to celebrating cultural diversity through music. As a relatively new club, we are fueled by the passion and enthusiasm of our diverse leaders and members. Our club offers a unique platform for individuals from various backgrounds to come together, share their love for music, and showcase their talents. We specialize in singing a wide range of world music genres, creating a harmonious blend of melodies and rhythms from different cultures. In addition to our regular singing sessions, we also host engaging events that promote cultural awareness and unity within our community. At Raaga UWB Club, we believe that music transcends boundaries and fosters connections, making our club a welcoming space for everyone to explore and appreciate the rich tapestry of global musical traditions. Join us as we embark on a musical journey that celebrates diversity and harmony!</p>
+                </div>
+            </div>
+            <div class = " bg-darkSpringGreen flex flex-row justify-center w-full pb-28">
+                <div class = " bg-darkSpringGreen flex flex-row justify-between w-4/5 self-center">
+                    <div class = "w-[30%] h-full flex justify-center max-sm:hidden">
+                        <p class = "font-dosis font-bold text-[1.8rem] text-white bg-indianRed w-full text-center p-4 mt-5 rounded-3xl border-[3px] border-black">Frequently Asked Questions</p>
                     </div>
-                    <div onClick = "question2Click()" class = "w-4/5 bg-[#EFEDCA] self-center mt-5 flex flex-row border-[3px] border-black">
-                        <svg class = "size-20 p-4" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve" transform="rotate(0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394 l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393 C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path> </g></svg>
-                        <p class = "self-center font-bold font-dosis pl-4 text-lg">When do we meet and where?</p>
-                    </div>
-                    <div id = "question2Doc" class = "self-center w-4/5">
-                    </div>
-                    <div onClick = "question3Click()" class = "w-4/5 bg-[#EFEDCA] self-center flex flex-row border-[3px] mt-5 border-black">
-                        <svg class = "size-20 p-4" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve" transform="rotate(0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394 l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393 C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path> </g></svg>
-                        <p class = "self-center font-bold font-dosis pl-4 text-lg">Frequently asked question 3</p>
-                    </div>
-                    <div id = "question3Doc" class = "self-center w-4/5">
-                    </div>
-                    <div onClick = "question4Click()" class = "w-4/5 bg-[#EFEDCA] self-center flex flex-row border-[3px] mt-5 border-black">
-                        <svg class = "size-20 p-4" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve" transform="rotate(0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394 l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393 C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path> </g></svg>
-                        <p class = "self-center font-bold font-dosis pl-4 text-lg">Frequently asked question 4</p>
-                    </div>
-                    <div id = "question4Doc" class = "self-center w-4/5">
+                    <div class = "w-[50%] max-sm:h-full flex flex-col justify-between font-inter max-md:w-full">
+                        <div class = "w-full h-full flex justify-center collapse max-sm:visible">
+                            <p class = "font-dosis font-bold text-[1.8rem] text-white bg-indianRed w-full text-center p-4 my-5 rounded-3xl border-[3px] border-black">Frequently Asked Questions</p>
+                        </div>
+                        <div onClick = "question1Click()" class = "w-full bg-[#EFEDCA] self-center mt-5 flex flex-row border-[3px] border-black">
+                            <div id = "question1Icon">
+                                <svg class = "size-20 p-4 z-0" version="1.1" id="upArrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve" transform="rotate(0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394 l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393 C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path> </g></svg>
+                            </div>
+                            <p class = "self-center font-bold pl-4 font-dosis text-lg">Do I need to know how to play an instrument to join?</p>
+                        </div>
+                        <div id = "question1Doc" class = "self-center ">
+                        </div>
+                        <div onClick = "question2Click()" class = "w-full bg-[#EFEDCA] self-center mt-5 flex flex-row border-[3px] border-black">
+                            <svg class = "size-20 p-4" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve" transform="rotate(0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394 l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393 C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path> </g></svg>
+                            <p class = "self-center font-bold font-dosis pl-4 text-lg">When do we meet and where?</p>
+                        </div>
+                        <div id = "question2Doc" class = "self-center">
+                        </div>
+                        <div onClick = "question3Click()" class = "w-full bg-[#EFEDCA] self-center flex flex-row border-[3px] mt-5 border-black">
+                            <svg class = "size-20 p-4" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve" transform="rotate(0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394 l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393 C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path> </g></svg>
+                            <p class = "self-center font-bold font-dosis pl-4 text-lg">Frequently asked question 3</p>
+                        </div>
+                        <div id = "question3Doc" class = "self-center">
+                        </div>
+                        <div onClick = "question4Click()" class = "w-full bg-[#EFEDCA] self-center flex flex-row border-[3px] mt-5 border-black">
+                            <svg class = "size-20 p-4" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve" transform="rotate(0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394 l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393 C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path> </g></svg>
+                            <p class = "self-center font-bold font-dosis pl-4 text-lg">Frequently asked question 4</p>
+                        </div>
+                        <div id = "question4Doc" class = "self-center">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class = "py-10 bg-black flex flex-col text-center w-full">
-            <div class = "max-md:w-1/2 w-1/4 flex flex-row justify-evenly self-center">
-                <a class = "size-[50px] p-2  fill-current text-black bg-[#DDDDDD] border-2 rounded-full" href = "https://discord.gg/adDNWpHc" target = "_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 100 100" viewBox="0 0 100 100" id="discord"><path d="M85.778,24.561c-11.641-8.71-22.793-8.466-22.793-8.466s-1.14,1.302-1.14,1.302c13.839,4.152,20.27,10.257,20.27,10.257
-                        c-19.799-10.901-45.019-10.823-65.613,0c0,0,6.675-6.431,21.328-10.583c0,0-0.814-0.977-0.814-0.977s-11.071-0.244-22.793,8.466
-                        c0,0-11.722,21.084-11.722,47.052c0,0,6.838,11.722,24.829,12.292c0,0,3.012-3.582,5.454-6.675
-                        c-10.339-3.093-14.246-9.524-14.246-9.524c6.495,4.064,13.063,6.608,21.247,8.222c13.316,2.741,29.879-0.077,42.249-8.222
-                        c0,0-4.07,6.594-14.734,9.606c2.442,3.012,5.373,6.512,5.373,6.512C90.662,83.254,97.5,71.532,97.5,71.613
-                        C97.5,45.645,85.778,24.561,85.778,24.561z M34.818,64.043c-4.559,0-8.303-3.989-8.303-8.955c0.333-11.892,16.357-11.855,16.607,0
-                        C43.121,60.054,39.458,64.043,34.818,64.043z M64.531,64.043c-4.559,0-8.303-3.989-8.303-8.955c0.366-11.869,16.19-11.874,16.607,0
-                        C72.834,60.054,69.171,64.043,64.531,64.043z">
-                    </path>
-                    </svg>
-                </a>
-                <a class = " size-[50px] p-2 bg-[#DDDDDD] fill-current border-2 rounded-full text-black" href="https://www.instagram.com/raagauwb/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target = "_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" id="instagram">
-                        <path d="M17.34,5.46h0a1.2,1.2,0,1,0,1.2,1.2A1.2,1.2,0,0,0,17.34,5.46Zm4.6,2.42a7.59,7.59,0,0,0-.46-2.43,4.94,4.94,0,0,0-1.16-1.77,4.7,4.7,0,0,0-1.77-1.15,7.3,7.3,0,0,0-2.43-.47C15.06,2,14.72,2,12,2s-3.06,0-4.12.06a7.3,7.3,0,0,0-2.43.47A4.78,4.78,0,0,0,3.68,3.68,4.7,4.7,0,0,0,2.53,5.45a7.3,7.3,0,0,0-.47,2.43C2,8.94,2,9.28,2,12s0,3.06.06,4.12a7.3,7.3,0,0,0,.47,2.43,4.7,4.7,0,0,0,1.15,1.77,4.78,4.78,0,0,0,1.77,1.15,7.3,7.3,0,0,0,2.43.47C8.94,22,9.28,22,12,22s3.06,0,4.12-.06a7.3,7.3,0,0,0,2.43-.47,4.7,4.7,0,0,0,1.77-1.15,4.85,4.85,0,0,0,1.16-1.77,7.59,7.59,0,0,0,.46-2.43c0-1.06.06-1.4.06-4.12S22,8.94,21.94,7.88ZM20.14,16a5.61,5.61,0,0,1-.34,1.86,3.06,3.06,0,0,1-.75,1.15,3.19,3.19,0,0,1-1.15.75,5.61,5.61,0,0,1-1.86.34c-1,.05-1.37.06-4,.06s-3,0-4-.06A5.73,5.73,0,0,1,6.1,19.8,3.27,3.27,0,0,1,5,19.05a3,3,0,0,1-.74-1.15A5.54,5.54,0,0,1,3.86,16c0-1-.06-1.37-.06-4s0-3,.06-4A5.54,5.54,0,0,1,4.21,6.1,3,3,0,0,1,5,5,3.14,3.14,0,0,1,6.1,4.2,5.73,5.73,0,0,1,8,3.86c1,0,1.37-.06,4-.06s3,0,4,.06a5.61,5.61,0,0,1,1.86.34A3.06,3.06,0,0,1,19.05,5,3.06,3.06,0,0,1,19.8,6.1,5.61,5.61,0,0,1,20.14,8c.05,1,.06,1.37.06,4S20.19,15,20.14,16ZM12,6.87A5.13,5.13,0,1,0,17.14,12,5.12,5.12,0,0,0,12,6.87Zm0,8.46A3.33,3.33,0,1,1,15.33,12,3.33,3.33,0,0,1,12,15.33Z"></path>
-                    </svg>
-                </a>
+            <div class = "py-10 bg-black flex flex-col text-center w-full">
+                <div class = "max-md:w-1/2 w-1/4 flex flex-row justify-evenly self-center">
+                    <a class = "size-[50px] p-2  fill-current text-black bg-[#DDDDDD] border-2 rounded-full" href = "https://discord.gg/adDNWpHc" target = "_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 100 100" viewBox="0 0 100 100" id="discord"><path d="M85.778,24.561c-11.641-8.71-22.793-8.466-22.793-8.466s-1.14,1.302-1.14,1.302c13.839,4.152,20.27,10.257,20.27,10.257
+                            c-19.799-10.901-45.019-10.823-65.613,0c0,0,6.675-6.431,21.328-10.583c0,0-0.814-0.977-0.814-0.977s-11.071-0.244-22.793,8.466
+                            c0,0-11.722,21.084-11.722,47.052c0,0,6.838,11.722,24.829,12.292c0,0,3.012-3.582,5.454-6.675
+                            c-10.339-3.093-14.246-9.524-14.246-9.524c6.495,4.064,13.063,6.608,21.247,8.222c13.316,2.741,29.879-0.077,42.249-8.222
+                            c0,0-4.07,6.594-14.734,9.606c2.442,3.012,5.373,6.512,5.373,6.512C90.662,83.254,97.5,71.532,97.5,71.613
+                            C97.5,45.645,85.778,24.561,85.778,24.561z M34.818,64.043c-4.559,0-8.303-3.989-8.303-8.955c0.333-11.892,16.357-11.855,16.607,0
+                            C43.121,60.054,39.458,64.043,34.818,64.043z M64.531,64.043c-4.559,0-8.303-3.989-8.303-8.955c0.366-11.869,16.19-11.874,16.607,0
+                            C72.834,60.054,69.171,64.043,64.531,64.043z">
+                        </path>
+                        </svg>
+                    </a>
+                    <a class = " size-[50px] p-2 bg-[#DDDDDD] fill-current border-2 rounded-full text-black" href="https://www.instagram.com/raagauwb/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target = "_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" id="instagram">
+                            <path d="M17.34,5.46h0a1.2,1.2,0,1,0,1.2,1.2A1.2,1.2,0,0,0,17.34,5.46Zm4.6,2.42a7.59,7.59,0,0,0-.46-2.43,4.94,4.94,0,0,0-1.16-1.77,4.7,4.7,0,0,0-1.77-1.15,7.3,7.3,0,0,0-2.43-.47C15.06,2,14.72,2,12,2s-3.06,0-4.12.06a7.3,7.3,0,0,0-2.43.47A4.78,4.78,0,0,0,3.68,3.68,4.7,4.7,0,0,0,2.53,5.45a7.3,7.3,0,0,0-.47,2.43C2,8.94,2,9.28,2,12s0,3.06.06,4.12a7.3,7.3,0,0,0,.47,2.43,4.7,4.7,0,0,0,1.15,1.77,4.78,4.78,0,0,0,1.77,1.15,7.3,7.3,0,0,0,2.43.47C8.94,22,9.28,22,12,22s3.06,0,4.12-.06a7.3,7.3,0,0,0,2.43-.47,4.7,4.7,0,0,0,1.77-1.15,4.85,4.85,0,0,0,1.16-1.77,7.59,7.59,0,0,0,.46-2.43c0-1.06.06-1.4.06-4.12S22,8.94,21.94,7.88ZM20.14,16a5.61,5.61,0,0,1-.34,1.86,3.06,3.06,0,0,1-.75,1.15,3.19,3.19,0,0,1-1.15.75,5.61,5.61,0,0,1-1.86.34c-1,.05-1.37.06-4,.06s-3,0-4-.06A5.73,5.73,0,0,1,6.1,19.8,3.27,3.27,0,0,1,5,19.05a3,3,0,0,1-.74-1.15A5.54,5.54,0,0,1,3.86,16c0-1-.06-1.37-.06-4s0-3,.06-4A5.54,5.54,0,0,1,4.21,6.1,3,3,0,0,1,5,5,3.14,3.14,0,0,1,6.1,4.2,5.73,5.73,0,0,1,8,3.86c1,0,1.37-.06,4-.06s3,0,4,.06a5.61,5.61,0,0,1,1.86.34A3.06,3.06,0,0,1,19.05,5,3.06,3.06,0,0,1,19.8,6.1,5.61,5.61,0,0,1,20.14,8c.05,1,.06,1.37.06,4S20.19,15,20.14,16ZM12,6.87A5.13,5.13,0,1,0,17.14,12,5.12,5.12,0,0,0,12,6.87Zm0,8.46A3.33,3.33,0,1,1,15.33,12,3.33,3.33,0,0,1,12,15.33Z"></path>
+                        </svg>
+                    </a>
+                </div>
+                <h1 class = "text-slate-500 font text-[0.75rem]"></h1>
             </div>
-            <h1 class = "text-slate-500 font text-[0.75rem]"></h1>
-        </div>   
+        </div>
 </body>
 </html>
