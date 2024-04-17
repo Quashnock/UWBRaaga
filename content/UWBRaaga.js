@@ -1,3 +1,5 @@
+localStorage.setItem('MenuButton', 'open');
+
 function question1Click(){
     let container = document.querySelector("#question1Doc");
     if (container.querySelector('div')){
@@ -73,4 +75,21 @@ function question4Click(){
     }
 }
 
+function toggleMenu(){
+    const dropdownMenu = document.getElementById("dropdownMenu");
+    dropdownMenu.classList.toggle('hidden');
 
+    const menuButton = document.getElementById("menuButton");
+    if (localStorage.getItem('MenuButton') == "open"){
+        menuButton.innerHTML = "&times;"
+        localStorage.setItem('MenuButton', 'close');
+    }
+    else{
+        menuButton.innerHTML = "&#9776;";
+        localStorage.setItem('MenuButton', 'open');
+    }
+
+    const navMain = document.getElementById("navMain");
+    navMain.classList.toggle('border-b-[3px]');
+
+}

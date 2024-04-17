@@ -19,6 +19,12 @@ module.exports = {
         inter: "'Inter', serif",
         merriweather: "'Merriweather', serif",
         dosis: "'Dosis', sans-serif"
+      },
+      keyframes: {
+        'open-menu': {
+          '0%': {transform: 'scaleY(0)'},
+          '100%': {transform: 'scaleY(1}'}
+        }
       }
     }
   },

@@ -12,21 +12,26 @@
 <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
 </head>
 <body class = "box-border m-0">
-        <div class = "w-full h-[10vh] flex flex-row justify-center font-white fill-current items-center fixed z-10 bg-[#EFEDCA] border-b-[3px] border-black">
-            <div class = "w-4/5 max-sm:w-[95%] h-full flex flex-row items-center justify-between">
-                <div class = "h-full self-center flex flex-row items-center">
-                    <img src = "Assets/Club_Logo.png" class = "h-[90%] self-center">
-                    <p class = "font-lora text-[2.5rem] font-bold italic text-black self-center ml-2">Raaga</p>
-                </div>
-                <div class = "h-full self-center flex flex-row items-center justify-evenly">
-                    <a class = "text-[1.5rem] font-dosis font-bold text-black self-center hover:underline max-sm:hidden" href = "https://discord.gg/adDNWpHc" target = "_blank">Discord</a>
-                    <a class = "text-[1.5rem] font-dosis font-bold text-black self-center ml-8 hover:underline max-sm:hidden" href="https://www.instagram.com/raagauwb/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target = "_blank">Instagram</a>
-                    <div class = "h-full flex flex-row items-center mr-5 md:hidden lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" class = "h-[60%]"><path d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z"/></svg>
+        <div class = "w-full flex flex-col fixed z-10">
+            <div id = "navMain" class = "w-full h-[10vh] flex flex-row justify-center font-white absolute fill-current items-center bg-[#EFEDCA] border-b-[3px] border-black">
+                <div class = "w-4/5 max-sm:w-[95%] h-full flex flex-row items-center justify-between">
+                    <div class = "h-full self-center flex flex-row items-center">
+                        <img src = "Assets/Club_Logo.png" class = "h-[90%] self-center">
+                        <p class = "font-lora text-[2.5rem] font-bold italic text-black self-center ml-2">Raaga</p>
+                    </div>
+                    <div class = "h-full self-center flex flex-row items-center justify-evenly">
+                        <a class = "text-[1.5rem] font-dosis font-bold text-black self-center hover:underline max-sm:hidden" href = "https://discord.gg/adDNWpHc" target = "_blank">Discord</a>
+                        <a class = "text-[1.5rem] font-dosis font-bold text-black self-center ml-8 hover:underline max-sm:hidden" href="https://www.instagram.com/raagauwb/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target = "_blank">Instagram</a>
+                        <div id = "menuButtonContainer" onClick = "toggleMenu()" class = "h-full flex flex-row text-5xl items-center mr-5 mb-2 md:hidden lg:hidden">
+                            <a id = "menuButton">&#9776;</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            
+            <div id = "dropdownMenu" class = "bg-[#EFEDCA] absolute top-[10vh] w-full flex flex-col justify-center items-center border-black border-b-[3px] hidden">
+                <a class = "text-[1.5rem] font-dosis font-bold text-black self-center py-3 hover:underline" href = "https://discord.gg/adDNWpHc" target = "_blank">Discord</a>
+                <a class = "text-[1.5rem] font-dosis font-bold text-black self-center pb-3 hover:underline" href="https://www.instagram.com/raagauwb/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target = "_blank">Instagram</a>
+            </div>
         </div>
         <div class = "absolute">
             <div class = "w-full h-[10vh]">
