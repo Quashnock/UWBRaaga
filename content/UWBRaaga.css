@@ -737,10 +737,6 @@ video {
   border-radius: 9999px;
 }
 
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
 .rounded-b-2xl {
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
@@ -812,8 +808,30 @@ video {
   background-color: rgb(211 96 96 / var(--tw-bg-opacity));
 }
 
+.bg-opacity-25 {
+  --tw-bg-opacity: 0.25;
+}
+
+.bg-opacity-50 {
+  --tw-bg-opacity: 0.5;
+}
+
 .bg-\[url\(\'Assets\/SampleBackground_New\.png\'\)\] {
   background-image: url('Assets/SampleBackground_New.png');
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.from-black {
+  --tw-gradient-from: #000 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-transparent {
+  --tw-gradient-to: transparent var(--tw-gradient-to-position);
 }
 
 .bg-cover {
@@ -838,11 +856,6 @@ video {
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
 }
 
 .px-4 {
@@ -875,9 +888,24 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.py-\[10vh\] {
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+.py-\[15vh\] {
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .pb-28 {
@@ -925,6 +953,10 @@ video {
   font-size: 0.75rem;
 }
 
+.text-\[1\.25rem\] {
+  font-size: 1.25rem;
+}
+
 .text-\[1\.2rem\] {
   font-size: 1.2rem;
 }
@@ -937,16 +969,12 @@ video {
   font-size: 1.8rem;
 }
 
-.text-\[2\.2rem\] {
-  font-size: 2.2rem;
-}
-
 .text-\[2\.5rem\] {
   font-size: 2.5rem;
 }
 
-.text-\[6rem\] {
-  font-size: 6rem;
+.text-\[3rem\] {
+  font-size: 3rem;
 }
 
 .text-lg {
@@ -1076,6 +1104,11 @@ video {
   .max-sm\:py-\[15vh\] {
     padding-top: 15vh;
     padding-bottom: 15vh;
+  }
+
+  .max-sm\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .max-sm\:text-\[1rem\] {
